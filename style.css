@@ -1,0 +1,288 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    background: black;
+}
+.nav{
+    background-color: white;
+}
+.navbar-nav .nav-link{
+    color: white;
+}
+.navbar-nav .nav-link:active{
+    color: white;
+}
+.navbar-nav{
+    margin-right: 210px;
+    font-size: 18px;
+}
+.navbar-nav a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    color: #da945c;
+    transition: all .5s ease;
+}
+.icons a{
+    color: white;
+    font-size: 25px;
+    gap: 2rem;
+}
+.icons a:hover{
+    color: #da945c;
+    cursor: pointer;
+    transition: all .5s ease;
+}
+.home{
+    padding-top: 180px;
+}
+.row h1{
+    color: white;
+    font-weight: 500;
+}
+.row h3{
+    color: white;
+}
+.row h2{
+    color: #da945c
+}
+.row h4{
+    color: white;
+}
+.row h5{
+    color: white;
+}
+.row h6{
+    color: #da945c;
+}
+.row h2 span{
+    color: white;
+}
+.about h2{
+    text-align: center;
+    padding-bottom: 20px;
+}
+p{
+    color: rgb(202, 197, 188);
+}
+.row .btn{
+    background-color: #da945c;
+    border: none;
+}
+.row .btn:hover{
+    transform: scaleX(1.2);
+    background-color: #da945c;
+    transition: all .5s ease;
+}
+.home p{
+    font-size: 23px;
+}
+.about{
+    padding-top: 120px;
+}
+.about h3{
+    padding-top: 35px;
+}
+.menu{
+    text-align: center;
+    padding-top: 120px;
+}
+.menu h2{
+    padding-bottom: 30px;
+}
+.menu .square{
+    width: 350px;
+    height: 300px;
+    border: 1px solid grey;
+    text-align: center;
+}
+.menu .square:hover{
+    background: white;
+    color: black;
+    cursor: pointer
+}
+.circle{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-left: 120px;
+    padding: 30px 0px;
+}
+.menu .square h5{
+    padding-top: 45px;
+}
+.amount{
+    display: flex;
+    flex-direction: row;
+    padding-left: 110px;
+    gap: 5px;
+}
+.amount p{
+    padding-top: 7px;
+    text-decoration: line-through;
+}
+.menu .square .circle img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.product{
+    padding-top: 130px;
+    text-align: center;
+}
+.product h2{
+    padding-bottom: 30px;
+}
+.product .prod{
+    width: 350px;
+    height: 385px;
+    border: 1px solid grey;
+    text-align: center;
+}
+.product .prod .icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+
+}
+.product .prod .icon1{
+    width: 60px;
+    height: 60px;
+    border: 1px solid grey;
+}
+.product .prod .icon1 i{
+    width: 50px;
+    height: 50px;
+    color: white;
+}
+.product .prod .prodImage{
+    width: 120px;
+    height: 150px;
+    margin: 20px 0px 0px 115px;
+    
+}
+.product .prod .prodImage img{
+    width: 120px;
+    height: 150px;
+}
+.product .prod h5{
+    padding-top: 20px;
+}
+.icons2{
+    width: 30px;
+    height: 30px;
+    margin-left: 130px;
+    color: #da945c;
+}
+.review{
+    padding-top: 120px;
+    text-align: center;
+}
+.box{
+    width: 350px;
+    height: 380px;
+    border: 1px solid grey;
+    text-align: center;
+}
+.review .quotation{
+    width: 30px;
+    height: 30px;
+    color: #da945c;
+}
+.review .circle img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.review h5{
+    padding-top: 40px;
+}
+
+.blog{
+    padding-top: 120px;
+    text-align: center;
+}
+.blog h2{
+    padding-bottom: 30px;
+}
+.blog .image1{
+    width: 350px;
+    height: 100px;
+}
+.blog h5{
+    padding-top: 140px;
+}
+.blog .blogbox{
+    width: 350px;
+    height: 430px;
+    border: 1px solid grey;
+}
+.blog .blogbox .text{
+    padding-left: 15px;
+}
+.contact{
+    padding-top: 120px;
+    text-align: center;
+}
+.contact h3{
+    margin-top: 20px;
+    padding-bottom: 20px;
+    background-color: #727171;
+}
+.inputBox{
+    width: 550px;
+    height: 50px;
+    gap: 30px;
+    border: 1px solid grey;
+    background-color: #727171;
+}
+.inputBox input{
+    border: none;
+    background-color: #727171;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+}
+.menu1{
+    width: 100px;
+    height: 30px;
+    border: 1px solid gray;
+    color: white;
+    font-weight: 700px;
+    font-size: 20px;
+    padding-top: 0px;
+}
+.footer{
+    padding-top: 30px;
+   
+}
+.footer span{
+    color: #da945c;
+}
+.socials{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding-top: 30px;
+}
+.socials1{
+    width: 50px;
+    height: 50px;
+    background: #da945c;
+    border-radius: 50%;
+}
+.socials1 i{
+    color: white;
+}
+.footer p{
+    text-align: center;
+    padding-top: 30px;
+    font-size: 23px;
+}
